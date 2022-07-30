@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "config:base",
+        ":preserveSemverRanges"
+    ],
+    "rangeStrategy": "auto",
+    "semanticCommits": "enabled",
+    "branchConcurrentLimit": 1,
+    "stabilityDays": 1,
+    "reviewersFromCodeOwners": true,
+    "dependencyDashboard": false
+}
